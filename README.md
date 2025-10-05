@@ -6,3 +6,4 @@ Summary. Interactive.
 
 - [ ] add full PDF
 - [ ] finish the Romanian translation
+- [ ] add favicon
