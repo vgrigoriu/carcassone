@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://cdn.glitch.global/8323b7f4-6d99-4976-ac91-c1173dd0bce8/Carcassonne-1-icon.png?v=1673950531021" />
+
+    <title>Reguli Ceață peste Carcassone</title>
+
+    <link rel="canonical" href="https://carcassone.glitch.me/" />
+    <meta
+      name="description"
+      content="Sumar reguli: Ceață peste Carrcassone."
+    />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="Reguli Ceață peste Carcassone" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://carcassone.glitch.me/" />
+    <meta
+      property="og:description"
+      content="Sumar reguli: Ceață peste Carcassone."
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.global/8323b7f4-6d99-4976-ac91-c1173dd0bce8/Carcassonne-1-icon.png?v=1673950531021"
+    />
+    <meta name="twitter:card" content="summary" />
+
+    <link rel="stylesheet" href="/style.css" />
+
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content" role="main">
+        <h1 class="title">Reguli</h1>
+        
+        <p class="warning">
+          Incomplete, mai bine te uiți la <a href="/">versiunea în engleză</a>.
+        </p>
+        
+        <div>
+          <input type="radio" name="level-selector" id="select-level-1" value="1"/>
+          <label for="select-level-1">1</label>
+          <input type="radio" name="level-selector" id="select-level-2" value="2"/>
+          <label for="select-level-2">2</label>
+          <input type="radio" name="level-selector" id="select-level-3" value="3"/>
+          <label for="select-level-3">3</label>
+          <input type="radio" name="level-selector" id="select-level-4" value="4"/>
+          <label for="select-level-4">4</label>
+          <input type="radio" name="level-selector" id="select-level-5" value="5"/>
+          <label for="select-level-5">5</label>
+          <input type="radio" name="level-selector" id="select-level-6" value="6"/>
+          <label for="select-level-6">6</label>
+        </div>
+        
+        <div id="rules-1">
+          <h2>
+            1a. Atașează cartonașe
+          </h2>
+          <ul>
+            <li>Regulile de bază ale jocului Carcassone rămîn în vigoare. La atașarea cartonașelor puteți ignora norii de ceață.</li>
+            <li class="level-3 level-4 level-5 level-6">Puteți trage cartonașe doar de pe teancul activ.</li>
+          </ul>
+          
+          <h2>
+            1b. Finalizarea ceții
+          </h2>
+          <ul>
+            <li>După ce ați finalizat un nor de ceață, îndepărtați toate spiritele de pe cartonașele implicate.</li>
+          </ul>
+          
+          <section class="level-2 level-3 level-4 level-5 level-6">
+            <h2>
+              1c. Înmormîntarea meepleșilor
+            </h2>
+            <ul>
+              <li class="level-2 level-3 level-4 level-5 level-6">Dacă ați finalizat un cimitir, trebuie să îngropați un meeple.</li>
+              <li class="level-2 level-3 level-4">Un cimitir este finalizat dacă ați atașat cartonașe pe toate cele 4 laturi. Atunci retrageți toate spiritele care au staționat acolo înapoi în rezerva generală.</li>
+              <li class="level-5 level-6">Finalizați un cimitir în momentul în care ați atașat toate cele 8 cartonașe din jurul cimitirului.</li>
+            </ul>
+          </section>
+        </div>
+
+        <div id="rules-2">
+          <h2>
+            2a. Plasarea spiritelor
+          </h2>
+          <ul>
+            <li>Dacă atașați un nor de ceață deschis, trebuie să atașați spirite pe acesta. Însă întotdeauna cu 1 spirit mai puțin, dacă ați atașat nor de ceață lîngă nor de ceață.</li>
+            <li class="level-2 level-3 level-4">Dacă trebuie să plasați spirite pe suprafața de joc, atunci trebuie să plasați și 1 spirit suplimentar pe un cimitir deschis.</li>
+            <li class="level-5 level-6">După ce ați atașat un cimitir, trebuie să așezați cîte 1 spirit pe fiecare cartonaș cu nor de ceață din proximitate.</li>
+          </ul>
+          
+          <h2>
+            2b. Plasarea unui meeple
+          </h2>
+          <ul>
+            <li>Conform regulilor obișnuite ale jocului Carcassone puteți plasa un meeple pe cartonașul tocmai atașat.</li>
+          </ul>
+        </div>
+        
+        <div id="rules-3">
+          <h2>
+            3a. Declanșarea unei evaluări
+          </h2>
+          <ul>
+            <li>Drumurile, orașele și castelele trebuie evaluate dacă sunt finalizate. Puteți decide dacă doriți să obțineți punctele aferente sau doriți să îndepărtați pînă la 3 spirite de pe 1 cartonaș.</li>
+            <li>Dacă într-un teritoriu sunt mai mulți meepleși, atunci obțineți punctele pentru fiecare culoare în parte.</li>
+            <li class="level-6">Acum aveți mai mulți meepleși pe tabla de punctaj. Fiecare culoare acumulează individual puncte. Doar după ce fiecare culoare participantă a atins sau a depășit un anumit marker se activează efectul acestuia.</li>
+          </ul>
+          
+          <section class="level-3 level-4 level-5 level-6">
+            <h2>
+              3b. Cîinii
+            </h2>
+            <ul>
+              <li>Dacă ajungeți pînă la un cîine pe tabla de punctaj, vi se deblochează un nou teanc de cartonașe și cîinele se poate alătura unui meeple. În jurul cîinelui îndepărtați imediat pînă la 3 spirite de pe pînă la 2 cartonașe.</li>
+            </ul>
+          </section>
+          
+          <section class="level-5 level-6">
+            <h2>
+              3c. Cimitirul bîntuit
+            </h2>
+            <ul>
+              <li>La sfîrșitul turului vostru trebuie să trageți un cartonaș acoperit de pe teancul activ și să-l depuneți acoperit în vecinătatea unui cimitir. Cartonașele acoperite niciodată nu finalizează vreun teren (cu excepția cimitirelor).</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div>
+        ro | <a href="/">en</a>
+      </div>
+      <address>vgrigoriu@gmail.com</address>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://cdn.glitch.global/8323b7f4-6d99-4976-ac91-c1173dd0bce8/Carcassonne-1-icon.png?v=1673950531021" />
+
+    <title>Mists over Carcassone Rules</title>
+
+    <link rel="canonical" href="https://carcassone.glitch.me/" />
+    <meta
+      name="description"
+      content="Summary of Mists over Carcassone rules."
+    />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="Mists over Carcassone Rules" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://carcassone.glitch.me/" />
+    <meta
+      property="og:description"
+      content="Summary of Mists over Carcassone rules."
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.global/8323b7f4-6d99-4976-ac91-c1173dd0bce8/Carcassonne-1-icon.png?v=1673950531021"
+    />
+    <meta name="twitter:card" content="summary" />
+
+    <link rel="stylesheet" href="/style.css" />
+
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content" role="main">
+        <h1 class="title">Mists over Carcassone Rules Summary</h1>
+        
+        <p>
+          <a href="https://cdn.glitch.global/8323b7f4-6d99-4976-ac91-c1173dd0bce8/rules.pdf?v=1702667657079">Full rules</a>
+        </p>
+        
+        <div>
+          <input type="radio" name="level-selector" id="select-level-1" value="1"/>
+          <label for="select-level-1">1</label>
+          <input type="radio" name="level-selector" id="select-level-2" value="2"/>
+          <label for="select-level-2">2</label>
+          <input type="radio" name="level-selector" id="select-level-3" value="3"/>
+          <label for="select-level-3">3</label>
+          <input type="radio" name="level-selector" id="select-level-4" value="4"/>
+          <label for="select-level-4">4</label>
+          <input type="radio" name="level-selector" id="select-level-5" value="5"/>
+          <label for="select-level-5">5</label>
+          <input type="radio" name="level-selector" id="select-level-6" value="6"/>
+          <label for="select-level-6">6</label>
+        </div>
+        
+        <div id="rules-0">
+          <h2>
+            0a. Setup
+          </h2>
+          <ul>
+            <!-- What tiles are we using? -->
+            <li class="level-1">Use all tiles except the 5 cemeteries and the 5 castles.</li>
+            <li class="level-2">Use all the tiles.</li>
+            <li class="level-3 level-4 level-5 level-6">Split the tiles into 3 piles of 20 tiles each.</li>
+            
+            <!-- Where do we place the goal tile and the dogs? -->
+            <li class="level-1">You need to reach 50 points.</li>
+            <li class="level-2">You need to reach 75 points.</li>
+            <li class="level-3 level-5">You need to reach 15 / 50 / 100 points.</li>
+            <li class="level-4">You need to reach 20 / 60 / 120 points.</li>
+            <li class="level-6">All players need to reach 10 / 25 / 50 points.</li>
+            
+            <!-- How many ghosts? -->
+            <li class="level-1 level-2 level-3">Use all ghosts.</li>
+            <li class="level-4 level-5">Use 13 ghosts (all except 2).</li>
+            <li class="level-6">Use 12 ghosts (all except 3).</li>
+            
+            <!-- Meeples -->
+            <li>For two player games, give each player 3 meeples in 2 different colors.</li>
+          </ul>
+        </div>
+        
+        <div id="rules-1">
+          <h2>
+            1a. Place land tile
+          </h2>
+          <ul>
+            <li>The basic Carcassonne rules apply. Ignore the mist when placing tiles.</li>
+            <li class="level-3 level-4 level-5 level-6">You may only draw from the currently active pile.</li>
+          </ul>
+          
+          <h2>
+            1b. Check mist
+          </h2>
+          <ul>
+            <li>Once you finish a mist bank, remove all ghosts from corresponding tiles and return them to the general supply.</li>
+          </ul>
+          
+          <section class="level-2 level-3 level-4 level-5 level-6">
+            <h2>
+              1c. Bury meeple
+            </h2>
+            <ul>
+              <li class="level-2 level-3 level-4 level-5 level-6">If you closed a cemetery you must bury 1 meeple.</li>
+              <li class="level-2 level-3 level-4">A cemetery is closed once tiles have been added to all 4 sides. Return all ghosts in the cemetery to the general supply.</li>
+              <li class="level-5 level-6">A cemetery is closed once it is fully surrounded by 8 tiles.</li>
+            </ul>
+          </section>
+        </div>
+
+        <div id="rules-2">
+          <h2>
+            2a. Place ghosts
+          </h2>
+          <ul>
+            <li>If you placed a tile with mist on it, you must add ghosts. Add 1 fewer ghost if you expanded an existing mist bank.</li>
+            <li class="level-2 level-3 level-4">When adding ghosts to the game board, add 1 additional ghost to an open cemetery.</li>
+            <li class="level-5 level-6">After placing a cemetery tile, add 1 ghost to each tile with mist on it around the cemetery.</li>
+          </ul>
+          
+          <h2>
+            2b. Place a meeple
+          </h2>
+          <ul>
+            <li>You may place a meeple on the just-placed tile as per the basic Carcassonne rules.</li>
+          </ul>
+        </div>
+        
+        <div id="rules-3">
+          <h2>
+            3a. Score points
+          </h2>
+          <ul>
+            <li>Score roads, cities, and castles once they are finished. Choose to either score the points or remove up to 3 ghosts from 1 tile.</li>
+            <li>If multiple meeples are on the completed region, score points separately for each different meeple colour.</li>
+            <li class="level-6">You have multiple meeples on the scoring track. Score each colour separately. Resolve a marker (hound, goal tile) only once all players have passed it.</li>
+            <li>Road: 1 point for each tile.</li>
+            <li>City: 2 points for each tile and shield.</li>
+            <li class="level-2 level-3 level-4 level-5 level-6">Castle: 2 points for each surrounding tile with mist on it.</li>
+            <li class="level-3 level-4 level-5 level-6">Hound: 1 point for each ghost on the game board.</li>
+          </ul>
+          
+          <section class="level-3 level-4 level-5 level-6">
+            <h2>
+              3b. Hounds
+            </h2>
+            <ul>
+              <li>If you reach a hound on the scoring track, you trigger the next pile of tiles and add the hound to a meeple on the board. You immediately remove up to 3 ghosts each from up to 2 tiles in the vicinity of the hound.</li>
+            </ul>
+          </section>
+          
+          <section class="level-5 level-6">
+            <h2>
+              3c. Haunted cemetery
+            </h2>
+            <ul>
+              <li>At the end of your turn, draw and place a face-down tile adjacent to an open cemetery. Face-down tiles never finish any regions (other than cemeteries).</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div>
+        <a href="/index-ro.html">ro</a> | en
+      </div>
+      <address>vgrigoriu@gmail.com</address>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+html {
+  max-width: 70ch;
+  padding: 3em 1em;
+  margin: auto;
+  /*line-height: 1.75;*/
+  font-size: 1.25em;
+}
+
+.hidden {
+  display: none;
+}
+
+#rules-1 {
+  background-color: #eeffee
+}
+
+#rules-1 h2 {
+  color: #006600
+}
+
+#rules-2 {
+  background-color: #ddeeff
+}
+
+#rules-2 h2 {
+  color: #000066
+}
+
+#rules-3 {
+  background-color: #ffeeee
+}
+
+#rules-3 h2 {
+  color: #660000
+}
+
+.warning {
+  color: red;
+}
